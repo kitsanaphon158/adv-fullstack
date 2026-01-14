@@ -1,0 +1,29 @@
+{
+  "name": "adv-fullstack",
+  "version": "1.0.0",
+  "description": "Repository",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitsanaphon158/adv-fullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kitsanaphon158/adv-fullstack/issues"
+  },
+  "homepage": "https://github.com/kitsanaphon158/adv-fullstack#readme",
+  "devDependencies": {
+    "prettier": "^3.7.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
