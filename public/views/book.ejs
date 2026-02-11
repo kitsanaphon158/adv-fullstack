@@ -1,0 +1,29 @@
+<!-- book.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book</title>
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+<body>
+    <h1>View book</h1>
+    <table class="book-table">
+        <tr>
+        <th>Title</th>
+        <th>Author</th>
+    </tr>
+    <tr>
+        <td><%= book.title %></td>
+        <td><%= book.author %></td>
+    </tr>
+    </table>
+    
+    <div class="link-center">
+        <a href="/update/<%= book.id %>">Edit</a>
+        <a href="/delete/<%= book.id %>">Delete</a>
+        <a href="/">Back to List</a>
+    </div>
+    
+</body>
+</html>
